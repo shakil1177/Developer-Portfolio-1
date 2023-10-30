@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-secondary{
+     height: 64px;
+     color: #FD6E0A;
+     border-color: #FD6E0A;
+     font-size: 20px;
+     font-weight: 700;
+     background: transparent;
+     padding: 16px 24px;
+     border-radius: 5px;
+
+}
+.contact{
+    margin-right: 5px;
+}
+.btn-primary{
+    height: 64px;
+    padding: 0 30px 0 30px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700px;
+    color: white;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url(/images/header_bg.png),url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+    padding-top:50px ;
+}
+.header-nav{
+    font-size: 45px;
+    font-weight: 800px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px 0 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+/* banner section */
+.banner-section{
+    display: flex;
+ align-items: center;   
+ margin: 0 50px 0 200px;
+}
+.banner-sub-title{
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-paragraph{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+/* about section style */
+.about-me{
+    margin: 130px 230px;
+    background-color: #FFF8F3;
+
+}
+.common-heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top:100px;
+}
+.aboutme-sf{
+    color: #757575;
+    padding: 30px 100px 30px 100px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 100px 100px;
+}
+.about-sf{
+    text-align: center;
+    color: #474747;
+}
+.icon{
+    margin-right: 10px;
+}
+/* what i do css */
+.what-i-do-card{
+    margin-top: 50px;
+    margin: 50px 230px 130px 230px;
+    display: flex;
+    gap: 24px;
+}
+.card-info{
+    box-shadow: 0px 6px 50px 0px lightgreen (0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 10px;
+    width: 200px;
+}
+.what-i-do-h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+} 
+.what-i-do-p{
+    color: #757575;
+    font-size: 18px;
+}
+/* summary style */
+.summary-section{
+    display: flex;
+    margin: 0 230px 0 230px;
+}
+.summary-h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.summary-h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+.horizantal{
+    color: #D1D1D1;
+    margin-right: 50px;
+}
+.download-cv{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+/* footer section */
+.footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px 130px 230px;
+    display: flex;
+}
+.footer-h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-p{
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+.icon{
+    display: flex;
+    gap: 24px;
+}
+input[type="text"]{
+    border: none;
+    margin-bottom: 20px;
+    height: 64px;
+    width: 400px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+input[type="email"]{
+    border: none;
+    margin-bottom: 20px;
+    height: 64px;
+    width: 400px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+textarea{
+    border: none;
+    height: 180px;
+    width: 400px;
+    resize: none;
+    border-radius: 10px;
+    padding: 25px;
+}
